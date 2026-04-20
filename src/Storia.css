@@ -1,0 +1,59 @@
+.storia-title {
+  border-bottom: 2px solid #a08060;
+  margin: 20px;
+}
+
+.storia-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 60vh;
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+
+.storia-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* sfondo */
+.storia-container::-webkit-scrollbar-track {
+  background: #c8b89a;
+  border-radius: 5px;
+}
+
+/* parte che si muove */
+.storia-container::-webkit-scrollbar-thumb {
+  background: #a08060;
+  border-radius: 5px;
+}
+
+/* per firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #a08060 #c8b89a;
+}
+
+.card {
+  position: relative;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  left: -9px;
+  top: 36%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  background: #a08060;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.storia-description {
+  margin: 0 0 0 20px;
+  border-left: 3px solid #a08060;
+  padding-left: 10px;
+  color: #a08060;
+}
