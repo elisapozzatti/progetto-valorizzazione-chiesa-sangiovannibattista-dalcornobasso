@@ -1,0 +1,51 @@
+.header {
+  height: 20vh;
+}
+
+.header-content {
+  background-color: #2c1f0e;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.header-title {
+  color: white;
+  margin-bottom: 0;
+}
+
+.header-subtitle {
+  color: #a08060;
+  margin-top: 0;
+}
+
+.header-logo {
+  height: 70px;
+  width: 70px;
+  margin-left: auto;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  background-color: #c8b89a;
+  height: min-content;
+  padding: 0;
+}
+
+.header-nav-item {
+  color: white;
+  text-decoration: none;
+  border: 2px solid #a08060;
+  border-bottom: 4px solid #a08060;
+  margin: 0;
+  padding: 10px 20px;
+  width: 20vw;
+  text-align: center;
+}

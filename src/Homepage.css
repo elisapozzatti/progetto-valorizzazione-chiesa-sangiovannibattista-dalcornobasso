@@ -1,0 +1,70 @@
+.homepage-title {
+  border-bottom: 2px solid #a08060;
+  margin: 20px;
+}
+
+.homepage-container-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  margin: 0 20px 5px 20px;
+  padding: 0;
+  height: 60vh;
+  position: relative;
+}
+
+.homepage-chiesa {
+  height: 100%;
+  margin: 0;
+}
+
+.homepage-hotspot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a08060;
+  border: 2px solid white;
+  border-radius: 50%;
+  color: white;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  z-index: 300;
+}
+
+.coords1 {
+  position: absolute;
+  top: 30%;
+  left: 44%;
+}
+
+.coords2 {
+  position: absolute;
+  top: 38%;
+  left: 52%;
+}
+
+.coords3 {
+  position: absolute;
+  top: 60%;
+  left: 52.5%;
+}
+
+.coords4 {
+  position: absolute;
+  top: 80%;
+  left: 39%;
+}
+
+.coords5 {
+  position: absolute;
+  top: 30%;
+  left: 58.5%;
+}
+
+.homepage-description {
+  color: #a08060;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
