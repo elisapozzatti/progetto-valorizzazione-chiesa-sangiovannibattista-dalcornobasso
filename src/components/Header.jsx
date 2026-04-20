@@ -2,6 +2,7 @@ import "./Header.css";
 import { Link, useLocation } from "react-router-dom";
 
 function Header() {
+  const [isPageOpen, setIsPageOpen] = useState("/");
   const location = useLocation();
 
   return (
