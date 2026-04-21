@@ -1,4 +1,32 @@
 .abbina-title {
   border-bottom: 2px solid #a08060;
-  margin: 20px;
+  margin: 20px 20px 0 20px;
+}
+
+.abbina-container {
+  display: flex;
+  align-items: top;
+  gap: 20px;
+  padding: 0 20px;
+  margin-top: 0;
+}
+
+.abbina-subtitles {
+  color: #a08060;
+}
+
+.abbina-columns {
+  width: 50%;
+}
+
+.abbina-items {
+  padding: 10px;
+  background-color: #c8b89a;
+  border: 2px solid #a08060;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.abbina-items:hover {
+  background-color: #a08060;
 }
