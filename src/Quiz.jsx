@@ -94,7 +94,7 @@ function Quiz() {
 
   const progress = (current / questions.length) * 100;
   return (
-    <div>
+    <div className="quiz-container">
       <Header />
       <h1 className="quiz-title">Quanto conosci la chiesa?</h1>
       {current < questions.length ? (
@@ -145,12 +145,12 @@ function Quiz() {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            margin: "0 40px",
             borderRadius: "10px",
             padding: "10px",
             backgroundColor: isCorrect ? "lightgreen" : "#ff9999",
             border: isCorrect ? "2px solid green" : "2px solid red",
           }}
+          className="next"
         >
           <p
             className="quiz-solution"

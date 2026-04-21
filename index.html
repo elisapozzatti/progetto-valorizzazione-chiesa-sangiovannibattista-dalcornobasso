@@ -32,6 +32,37 @@
       min-height: 100vh;
       background-color: #ede3cc;
     }
+
+    /* MEDIA QUERY */
+    @media (max-width: 1024px) {
+      body,
+      html {
+        overflow-y: auto;
+        max-height: max-content;
+        min-height: 100vh;
+      }
+      root {
+        overflow-y: auto;
+        max-height: max-content;
+        min-height: 100vh;
+      }
+    }
+
+    @media (max-width: 775px) {
+      body,
+      html {
+        position: relative;
+        overflow-y: auto;
+        max-height: max-content;
+        min-height: 100vh;
+      }
+      root {
+        position: relative;
+        overflow-y: auto;
+        max-height: max-content;
+        min-height: 100vh;
+      }
+    }
   </style>
   <body>
     <div id="root"></div>

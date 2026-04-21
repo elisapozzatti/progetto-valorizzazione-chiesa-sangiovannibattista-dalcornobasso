@@ -116,7 +116,7 @@ function Abbina() {
               return (
                 <h3
                   key={index}
-                  className="abbina-items"
+                  className="abbina-items def"
                   onClick={() => HandleDefClick(item)}
                   style={{
                     backgroundColor: isMatched ? "lightgreen" : "#c8b89a",

@@ -30,3 +30,96 @@
 .abbina-items:hover {
   background-color: #a08060;
 }
+
+/* MEDIA QUERY */
+
+@media (max-width: 1024px) {
+  .abbina-title {
+    margin-top: 60px;
+  }
+  .def {
+    font-size: 16px;
+  }
+  .abbina-container {
+    position: relative;
+    overflow-y: auto;
+    height: 80vh;
+  }
+}
+
+@media (max-width: 775px) {
+  .abbina-title {
+    font-size: 26px;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 625px) {
+  .abbina-title {
+    font-size: 20px;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .abbina-title {
+    margin-top: 10px;
+  }
+  .def {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 520px) {
+  .abbina-title {
+    font-size: 18px;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 431px) {
+  .abbina-title {
+    font-size: 22px;
+    margin-top: 0;
+  }
+  .def {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  .abbina-title {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  .def {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 391px) {
+  .abbina-title {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  .def {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 376px) {
+  .abbina-title {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  .def {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 345px) {
+  .abbina-title {
+    font-size: 17px;
+    margin-top: 0;
+  }
+}

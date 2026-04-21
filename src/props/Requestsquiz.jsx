@@ -1,3 +1,5 @@
+import "../Quiz.css";
+
 function Requestsquiz(props) {
   const getColor = (answer) => {
     if (!props.selected) return "#c8b89a";
@@ -40,52 +42,52 @@ function Requestsquiz(props) {
       >
         <h3
           style={{
-            width: "45%",
             backgroundColor: getColor(props.answer1),
             borderRadius: "10px",
             border: "2px solid " + getBorder(props.answer1),
             padding: "10px",
             cursor: "pointer",
           }}
+          className="quiz-answers"
           onClick={() => props.onClick(props.answer1)}
         >
           {props.answer1}
         </h3>
         <h3
           style={{
-            width: "45%",
             backgroundColor: getColor(props.answer2),
             borderRadius: "10px",
             border: "2px solid " + getBorder(props.answer2),
             padding: "10px",
             cursor: "pointer",
           }}
+          className="quiz-answers"
           onClick={() => props.onClick(props.answer2)}
         >
           {props.answer2}
         </h3>
         <h3
           style={{
-            width: "45%",
             backgroundColor: getColor(props.answer3),
             borderRadius: "10px",
             border: "2px solid " + getBorder(props.answer3),
             padding: "10px",
             cursor: "pointer",
           }}
+          className="quiz-answers"
           onClick={() => props.onClick(props.answer3)}
         >
           {props.answer3}
         </h3>
         <h3
           style={{
-            width: "45%",
             backgroundColor: getColor(props.answer4),
             borderRadius: "10px",
             border: "2px solid " + getBorder(props.answer4),
             padding: "10px",
             cursor: "pointer",
           }}
+          className="quiz-answers"
           onClick={() => props.onClick(props.answer4)}
         >
           {props.answer4}
