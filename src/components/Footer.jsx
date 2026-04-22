@@ -3,7 +3,6 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <p className="footer-text">Sviluppato da Elisa Pozzatti</p>
       <p className="footer-text">
         @2026 progetto valorizzazione chiesa san giovanni battista al corno
         basso
