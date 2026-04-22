@@ -10,7 +10,6 @@ function Footer() {
       <a
         href="https://portfolio-mipresento.vercel.app/"
         className="footer-text"
-        target="_blank"
       >
         Torna al portfolio
       </a>
