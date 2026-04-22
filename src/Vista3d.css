@@ -1,0 +1,35 @@
+.container-chiesa {
+  margin-top: 20px;
+  width: 100vw;
+  height: 70vh;
+  background-color: #ede3cc;
+  position: relative;
+}
+
+.container-chiesa-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.buttons-zoom {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.chiesa-buttons {
+  color: #a08060;
+  background-color: #ede3cc;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid #a08060;
+  padding: 0 3px;
+}
+
+.reset {
+  padding: 5px;
+}

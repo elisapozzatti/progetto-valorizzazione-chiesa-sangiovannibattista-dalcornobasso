@@ -13,7 +13,7 @@ function Footer() {
         className="footer-text"
         target="_blank"
       >
-        https://portfolio-mipresento.vercel.app/
+        Torna al portfolio
       </a>
     </footer>
   );
