@@ -1,3 +1,5 @@
+import "../Homepage.css";
+
 function Cardhome(props) {
   return (
     <div
@@ -11,22 +13,8 @@ function Cardhome(props) {
         ...props.style,
       }}
     >
-      <h2
-        style={{
-          color: "#a08060",
-          fontSize: "18px",
-        }}
-      >
-        {props.title}
-      </h2>
-      <p
-        style={{
-          color: "white",
-          fontSize: "14px",
-        }}
-      >
-        {props.description}
-      </p>
+      <h2 className="titleCard">{props.title}</h2>
+      <p className="descriptionCard">{props.description}</p>
     </div>
   );
 }
